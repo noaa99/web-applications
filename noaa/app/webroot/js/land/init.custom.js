@@ -25,4 +25,26 @@ $(function(){
 
 	var $onehalf = $('#one-half');
 	$onehalf._parallax();
+
+	if ($('.acc-box').length) {
+		var $box = $('.acc-box');
+		$box.each(function () {
+			var $trigger = $('.acc-trigger', $(this));
+			$trigger.on('click', function() {
+				var $this = $(this);
+				if ($this.data('mode') === 'toggle') {
+					$this.toggleClass('active').next().stop(true, true).slideToggle(300);
+				} else {
+					if ($this.next().is(':hidden')) {
+						$trigger.removeClass('active').next().slideUp(300);
+						$this.toggleClass('active').next().slideDown(300);
+					} else if ($this.hasClass('active')) {
+						$this.removeClass('active').next().slideUp(300);
+					}
+				}
+				return false;
+			});
+		});
+	}
+
 });

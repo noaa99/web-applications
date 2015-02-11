@@ -107,26 +107,57 @@
 				</div>
 			</section>
 
-			<!--section id="three" class="spotlight style1 bottom">
-				<span class="image fit main"></span>
-				<div class="content">
-					<div class="container">
-						<div class="row">
-							<div class="4u 12u$(medium)">
-								<header>
-									
-								</header>
-							</div>
-							<div class="4u 12u$(medium)">
-								
-							</div>
-							<div class="4u$ 12u$(medium)">
-								
-							</div>
+			<section id="three" class="">
+				<div class="container">
+					<div class="acc-box">
+						<span class='acc-trigger' data-mode='toggle'>
+							<a href='#'>Research</a>
+						</span>
+						<div class='acc-container'>
+							<p>The majority of my research experiences includes robot control, computer vision, medical image processing, and embedded control systems.
+							</p>
+							<p>
+							Current Research Topic<br>
+							- Medical Image Registration
+							</p>
+							<p>
+							Previous Research Topics<br>
+							- Walking trajectory of biped robots<br>
+							- Precise Control Algorithm of industrial Manipulators.</p>
 						</div>
-					</div>
-				</div>
-			</section-->
+						<span class='acc-trigger' data-mode='toggle'>
+							<a href='#'>Projects</a>
+						</span>
+						<div class='acc-container'>
+							<p>Under construction</p>
+						</div>	
+						<span class='acc-trigger' data-mode='toggle'>
+							<a href='#'>Teaching</a>
+						</span>
+						<div class='acc-container'>
+							<p>Design Embedded System : at Korea Advanced Institute of Science and Technology, 2008</p>
+						</div>		
+						<span class='acc-trigger' data-mode='toggle'>
+							<a href='#'>Coursework</a>
+						</span>
+						<div class='acc-container'>
+							<p>Under construction</p>
+						</div>
+						<span class='acc-trigger' data-mode='toggle'>
+							<a href='#'>Publication</a>
+						</span>
+						<div class='acc-container'>
+							<p>Under construction</p>
+						</div>
+						<span class='acc-trigger' data-mode='toggle'>
+							<a href='#'>Patent</a>
+						</span>
+						<div class='acc-container'>
+							<p>Under construction</p>
+						</div>
+					</div><!--/ .acc-box-->	
+				</div>		
+			</section>
 
 
 		<!-- Four -->
