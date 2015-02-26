@@ -1,7 +1,4 @@
-<style>
-li { display: list-item; }
 
-</style>
 <h1>Web Applications</h1>
 <p>This folder contains the whole source codes of web applications I contributed.</p>
 
@@ -16,7 +13,10 @@ li { display: list-item; }
   <li>Live page : http://www.cuve.me/noaa</li>
   <li>Last updated : 2/6/2015</li>
 </ul>
+<style>
+li { display: list-item; }
 
+</style>
 
 
 
