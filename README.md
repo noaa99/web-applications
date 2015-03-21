@@ -16,3 +16,11 @@
 </ul>
 
 
+<h4>/tictactoe game : tictactoe game with javascript</h4>
+<ul>
+  <li>index.html : Display game</li>
+  <li>Javascript : jquery.min.js / jquery.tictactoe.js</li>
+  <li>CSS : style.css</li>
+  <li>Last updated : 3/21/2015</li>
+</ul>
+
