@@ -1,0 +1,277 @@
+#v-accordion {
+	font-family: 'Trebuchet MS', MuseoSans-100, Arial, Helvetica, sans-serif;
+}
+/***********************************************/
+/*--------- Vertical accordion styles ---------*/
+/***********************************************/
+	#v-accordion.v_accordion{
+	    list-style: none;
+	    margin: 30px auto;
+	    padding: 0;
+	    height: 200px;
+	    overflow: hidden;
+	    width: 100%;
+	    height: 100%;
+	    max-width: 1024px;
+	    background: ;
+	    /*border: solid 4px #a0a0a0;*/
+	}
+	#v-accordion.v_accordion p {
+	    display: inline-block;
+	    
+	}
+	#v-accordion.v_accordion li {
+	    float: left;
+	    border-left:
+	    display: block;
+	    height: 300px;
+	    width: 50px;
+	    padding: 15px 0;
+	    overflow: hidden;
+	    color: #fff;
+	    text-decoration: none;
+	    font-size: 16px;
+	    line-height: 1.5em;
+	    border-left: 1px solid #fff;
+	    background: #ebebeb;
+	    padding: 0;
+	    border-top: solid 4px #a0a0a0;
+	    border-bottom: solid 4px #a0a0a0;
+	    border-left: solid 2px #a0a0a0;
+	    border-right: solid 2px #a0a0a0;
+	}
+	
+	#v-accordion.v_accordion li:first-child {
+		border-left: solid 4px #a0a0a0;
+	}
+	#v-accordion.v_accordion li:last-child {
+		border-right: solid 4px #a0a0a0;
+	}
+ 
+		#v-accordion.v_accordion li img {
+		    border: none;
+		    border-right: 1px solid #fff;
+		    float: left;
+		    margin: -15px 15px 0 0;
+		}
+ 
+		#v-accordion.v_accordion li.active {
+		    width: 80%;
+		}
+			
+			#v-accordion.v_accordion li.active .tag{
+			    border-right: solid 2px #a0a0a0;
+			    background-color: #006c34;
+			}
+			#v-accordion.v_accordion li > .tag {
+				cursor: pointer;
+			}
+			#v-accordion.v_accordion li.active > .tag:hover {
+				background-color: #006c34;
+			}
+			#v-accordion.v_accordion li > .tag:hover {
+				background-color: #ffffff;
+			}
+	
+		#v-accordion.v_accordion .active.tag {
+		    width: 5%;
+		    height: 170px;
+		    display: inline-block;
+		    position: relative;
+		    float: left;
+		}
+	#v-accordion.v_accordion .active .tag,
+	#v-accordion.v_accordion .tag {
+		width: 100%;
+	    height: 300px;
+	    background: #ebebeb;
+	    display: inline-block;
+	    position: relative;
+	    float: left;
+	}
+	
+	#v-accordion.v_accordion .active .tag {
+		width: 50px;
+		/*
+		background-color: #f4f4f4;
+		color: #a0a0a0;
+		*/
+	}
+	
+		#v-accordion.v_accordion .tag .page_number,
+		#v-accordion.v_accordion li.active .tag .page_number {
+		    color: #252525;
+	    	font-size: 0.7em;
+	    	top: 24.5em;
+	    	
+	    	-webkit-transform: rotate(0deg);
+		    -moz-transform: rotate(0deg);
+		    -o-transform: rotate(0deg);
+		}
+		#v-accordion.v_accordion li.active .tag .page_number {
+			color: #ffffff;
+		}
+		
+	
+	#v-accordion.v_accordion .contents_wrap {
+	    width: calc(100% - 84px);
+  		padding: 1em;
+  		height: 100%;
+	    background-color: #ebebeb;
+	    color: #252525;
+	    display: inline-block;
+	    float: left;
+	}
+		#v-accordion.v_accordion li.active .tag > span,
+		#v-accordion.v_accordion .tag > span {
+		    position: absolute;
+		    width: 170px;
+		    text-align: center;
+		    top: 50%;
+		    margin-top: -12px;
+		    font-size: 1em;
+		    left: -58px;
+		  	color: #252525;
+		  	
+		    -webkit-transform: rotate(270deg);
+		    -moz-transform: rotate(270deg);
+		    -o-transform: rotate(270deg);
+		}
+		#v-accordion.v_accordion li.active .tag > span {
+			left: -58px !important;
+			color: #ffffff;
+		}
+/***********************************************/
+/*--------- Horizontal accordion styles ---------*/
+/***********************************************/
+	#v-accordion.h_accordion{
+	    list-style: none;
+	    margin: 30px auto;
+	    padding: 0;
+	    height: 200px;
+	    /*overflow: hidden;*/
+	    width: 90%;
+	    max-width: 1024px;
+	    background: ;
+	}
+
+	#v-accordion.h_accordion p {
+	    display: inline-block;
+	    
+	}
+	#v-accordion.h_accordion li {
+	    float: left;
+	    border-left:
+	    display: block;
+	    height: 50px;
+	    width: 100% !important;
+	    padding: 15px 0;
+	    overflow: hidden;
+	    color: #fff;
+	    text-decoration: none;
+	    font-size: 16px;
+	    line-height: 1.5em;
+	    border-left: 1px solid #fff;
+	    background: #434343;
+	    padding: 0;
+	    
+	    border-top: solid 1px #252525;
+	    border-bottom: solid 1px #252525;
+	    border-left: solid 1px #252525;
+	    border-right: solid 1px #252525;
+	    
+	    border-radius: 6px;
+	}
+ 		
+ 		#v-accordion.h_accordion li:first-child {
+			border-top: solid 1px #252525;
+		}
+		#v-accordion.h_accordion li:last-child {
+			border-bottom: solid 1px #252525;
+		}
+ 		
+ 		
+		#v-accordion.h_accordion li img {
+		    border: none;
+		    border-right: 1px solid #fff;
+		    float: left;
+		    margin: -15px 15px 0 0;
+		}
+ 
+		#v-accordion.h_accordion li.active {
+		    height: 100%;
+		}
+		
+			#v-accordion.h_accordion li.active .tag{
+			    border-bottom: solid 2px #a0a0a0;
+			    background-color: #006c34;
+			}
+			#v-accordion.h_accordion li.active > .tag:hover {
+				background-color: #006c34;
+			}
+			#v-accordion.h_accordion li > .tag:hover {
+				background-color: #ffffff;
+			}
+			
+	#v-accordion.h_accordion .active.tag {
+	    width: 5%;
+	    height: 170px;
+	    background: #252525;
+	    display: inline-block;
+	    position: relative;
+	    float: left;
+	}
+	#v-accordion.h_accordion .tag {
+	    width: 100%;
+	    height: 50px;
+	    background: #ebebeb;
+	    display: inline-block;
+	    position: relative;
+	    float: left;
+	    text-align: center;
+	}
+		
+		#v-accordion.h_accordion .tag .page_number {
+		    position: absolute;
+  			right: 1em;
+		}
+	
+	#v-accordion.h_accordion .contents_wrap {
+	    width: 100%;
+	    height: 100%;
+	    padding: 1em;
+	    background-color: #ebebeb;
+	    color: #252525;
+	    display: inline-block;
+	    float: left;
+	    
+	}
+		#v-accordion.h_accordion .tag > span {
+		    position: relative;
+		    color: #252525;
+		    top: 25%;
+		    font-size: 1em;
+		}
+		#v-accordion.h_accordion li.active .tag > span {
+			color: #ffffff;
+		}
+		
+		
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 360px) and (max-width: 759px) {
+
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+
+
+}
+
+/* Mobile Portrait Size  (devices and browsers) */
+@media only screen and (max-width: 320px) {
+
+}
