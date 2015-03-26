@@ -24,3 +24,10 @@
   <li>Last updated : 3/21/2015</li>
 </ul>
 
+<h4>/horizontal(vertical) accordion : horizontal accordion plug-in</h4>
+<ul>
+  <li>index.html : test page</li>
+  <li>Javascript : jquery.min.js / jquery.vaccordion.js</li>
+  <li>CSS : vaccordion.css</li>
+  <li>Last updated : 3/25/2015</li>
+</ul>
