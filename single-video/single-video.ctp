@@ -1,6 +1,6 @@
 <?php
-    $this->Html->script(array('/js/asix/video'), array('inline' => false));
-    $this->Html->css(array('/css/asix/video-js'), 'stylesheet', array('inline' => false));
+    $this->Html->script(array('/js/video'), array('inline' => false));
+    $this->Html->css(array('/css/video-js'), 'stylesheet', array('inline' => false));
 ?>
 <!--div id="video-header text-center">
     <h3 class="font-Anton text-uppercase text-center">2015 Rose Float - Soaring Stories</h3>
