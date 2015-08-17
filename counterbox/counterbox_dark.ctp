@@ -45,11 +45,7 @@
 	</div>
 </div>
 </div>
-<?PHP
-    // Include javascript files
-    $this->Html->script('/js/asix/counter/jquery.counterup.min', array('inline' => false)); 
-    $this->Html->script('/js/asix/counter/waypoints.min', array('inline' => false));
-?>
+
 
 
 <script>
