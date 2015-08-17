@@ -4,12 +4,12 @@ This folder contains the whole source codes of web applications I contributed.
 ### /noaa : Personal Web Page - Hyunjong Choi
 
 > Framework : Cakephp
->  <li>Javascript : /noaa/app/webroot/js</li>
->  <li>CSS : /noaa/app/webroot/css</li>
->  <li>Main HTML : /noaa/app/view/home/main.ctp</li>
->  <li>Layout : /noaa/app/view/layout/main.ctp</li>
->  <li>Live page : http://www.cuve.me/noaa</li>
->  <li>Last updated : 2/6/2015</li>
+> Javascript : /noaa/app/webroot/js
+> CSS : /noaa/app/webroot/css
+> Main HTML : /noaa/app/view/home/main.ctp
+> Layout : /noaa/app/view/layout/main.ctp
+> Live page : http://www.cuve.me/noaa
+> Last updated : 2/6/2015
 
 
 
