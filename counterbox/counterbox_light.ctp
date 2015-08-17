@@ -4,8 +4,8 @@
     else if ($sub) {
         $files = $this->requestAction('form_policies/downloadRankSub/'.$sub);
     }
-    $this->Html->css(array('/css/asix/shortcode/counterbox.style'),'stylesheet', array('inline' => false));
-    $this->Html->script('/js/asix/counter/jquery.counterup.min', array('inline' => false));
+    $this->Html->css(array('/css/counterbox.style'),'stylesheet', array('inline' => false));
+    $this->Html->script('/js/jquery.counterup.min', array('inline' => false));
 ?>
 <div class="light_wrap_wrap <?PHP echo $color; ?>">
 <div class="counterbox_light_wrap">
