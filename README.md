@@ -8,8 +8,8 @@ This folder contains the whole source codes of web applications I contributed.
 > CSS : /noaa/app/webroot/css<br />
 > Main HTML : /noaa/app/view/home/main.ctp<br />
 > Layout : /noaa/app/view/layout/main.ctp<br />
-> Live page : http://www.cuve.me/noaa<br />
-> Last updated : 2/6/2015
+> Live page : http://www.bamtori.me<br />
+> Last updated : 9/8/2015
 
 
 
