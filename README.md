@@ -15,16 +15,15 @@ This folder contains the whole source codes of web applications I contributed.
 
 ### /tictactoe game : tictactoe game with javascript
 
-> index.html : Display game
-> Javascript : jquery.min.js / jquery.tictactoe.js
-> CSS : style.css
+> index.html : Display game<br />
+> Javascript : jquery.min.js / jquery.tictactoe.js<br />
+> CSS : style.css<br />
 > Last updated : 3/21/2015
 
 ### /horizontal(vertical) accordion : horizontal accordion plug-in
 
-> index.html : test page
-> Javascript : jquery.min.js / jquery.vaccordion.js
-> CSS : vaccordion.css
+> index.html : test page<br />
+> Javascript : jquery.min.js / jquery.vaccordion.js<br />
+> CSS : vaccordion.css<br />
 > Last updated : 3/25/2015
 
-<h4>/video </h4>
